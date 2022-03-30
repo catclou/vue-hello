@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <title>Vue Hello</title>
+</head>
+<body>
+    
+    <!-- Per avviare Vue  -->
+    <div id="root">
+        <h1>{{ welcome }}</h1>
+        <!-- <div>{{ img }}</div> -->
+        <img v-bind:src="img" :alt="altImg">
+    </div>
+
+    <!-- development version, includes helpful console warnings -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <!-- appoggio qui il collegamento a main.js  -->
+    <script type="text/javascript" src="./assets/JS/main.js"></script>
+</body>
+</html>
