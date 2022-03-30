@@ -5,7 +5,8 @@ var app = new Vue (
         data: {
             welcome: 'Weee, alooora?',
             img: './assets/IMG/procione.jpg',
-            altImg : 'un procione che ti saluta'
+            altImg : 'un procione che ti saluta',
+            awesome: true
         }
     }
 )
